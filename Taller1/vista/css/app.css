@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Quattrocento+Sans&display=swap');
 
+
 * {
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
@@ -20,7 +21,7 @@
 .text-center{
     text-align: center;
     color: black;
-    margin: 3px;
+    margin: 10px;
 }
 
 .header{
@@ -31,7 +32,7 @@
 table{ width: 100%;}
 
 tr,td{
-    border: 2.5px ;
+    border: 2.5px solid;
     border-radius: 6px;
 }
 
@@ -53,7 +54,7 @@ tr,td{
 a.btn{
 	color: black;
 	padding: 10px 10px;
-    margin: 1px;
+    margin: 3px;
 	display: inline-block;
 	text-decoration: none;
     border-radius: 8px;

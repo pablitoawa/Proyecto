@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Quattrocento+Sans&display=swap');
+
+
+* {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+    font-family: 'Quattrocento Sans', 'sans-serif';
+  }
+
+.panel{
+    max-width: 700px;
+    padding: 20px;
+    margin: auto;
+    background-color: #ffca99;
+    border: 2px solid gray;
+    border-radius: 18px;
+}
+
+.text-center{
+    text-align: center;
+    color: black;
+    margin: 10px;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+}
+
+table{ width: 100%;}
+
+tr,td{
+    border: 2.5px solid;
+    border-radius: 6px;
+}
+
+.idN{
+    text-align: center;
+}
+
+.name{
+    padding-left: 3px;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+
+.sign::before{
+    color: black;
+    content: "$  ";
+}
+
+a.btn{
+	color: black;
+	padding: 10px 10px;
+    margin: 3px;
+	display: inline-block;
+	text-decoration: none;
+    border-radius: 8px;
+}
+
+a.new{
+    background: #77dd77;
+}
+a.edit{
+    background: #84b6f4;
+}
+a.delete{
+    background: #ff6961;
+}
+
+footer img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    margin: 0 auto;
+    text-align: center;
+}
